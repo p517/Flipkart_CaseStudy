@@ -18,95 +18,118 @@ Despite being India’s leading e-commerce platform, Flipkart faces low user rev
 
 **Goal**: Transform the post-purchase flow into a trust-building and engaging experience to significantly increase **user review submissions**.
 
-**Target Users**:
-- Young working adults (21–35), primarily mobile-first users from Tier 1 & Tier 2 cities
-- Regular Flipkart shoppers who prefer quick, visual feedback and use platforms like WhatsApp/Instagram
+---
+
+## 🧰 Methods & Frameworks Used
+
+- **KPI Tree**: Mapped goals like awareness, adoption, and retention to measurable KPIs.
+- **Actor Mapping**: Identified key stakeholders — end users, sellers, Flipkart support, logistics teams.
+- **User Research**: Combined **primary insights** (surveys, user quotes) and **secondary research** (industry benchmarks, competitor strategies).
+- **Persona Development**: Focused on mobile-first, Gen-Z and millennial buyers from Tier 1 & Tier 2 cities.
+- **Funnel-Based Metrics**: Awareness → Activation → Engagement → Retention → Satisfaction.
+- **Pitfall Analysis**: Identified risks and created targeted mitigation strategies.
+- **Gamification Framework**: Designed rewards and habit loops to sustain behavior.
+
+---
+
+## 🎯 Target Users
+
+- Young working adults (21–35), mobile-first users from Tier 1 & Tier 2 cities
+- Frequent Flipkart shoppers who prefer quick, visual feedback
+- Heavy WhatsApp/Instagram users who rarely revisit the Flipkart app post-delivery
 
 ---
 
 ## 🔍 Key User Insights
 
 - 6 out of 10 users **forget to leave a review** without reminders
-- Most users prefer **visual feedback (photos/videos)** over text
-- WhatsApp is more frequently used than the Flipkart app post-purchase
-- Users lack **motivation** and **see no value** in writing reviews
-- Review flows are long, robotic, and lack **emotional connection**
+- Most users prefer **photo/video reviews** over typing
+- Users check WhatsApp more often than shopping apps
+- Review forms feel **long and robotic**
+- Value of giving reviews is unclear to most users
 
 ---
 
 ## 💡 Proposed Solutions
 
-### 1. 🧠 **SmartPrompt**
-- Sends a **timely notification or WhatsApp message** post-delivery
-- Nudges users to leave a review when satisfaction is highest
-- Reduces forgetfulness and review friction
-
-### 2. 📸 **QuickSnap Review**
-- Allows users to upload a **15-second video or image** instead of writing text
-- Saves time and improves **engagement and credibility**
-
-### 3. 🏆 **Review Rewards Hub**
-- Gamified dashboard with **Flipkart Coins, badges, or vouchers**
-- Incentivizes thoughtful reviews and builds a **habit loop**
+### 1. 🧠 SmartPrompt
+> **What:** Contextual nudges via app notification or WhatsApp  
+> **Why:** Reaches users at the right time post-delivery  
+> **How:** Reduces friction and forgetfulness to boost submission
 
 ---
 
-## 🧭 Product Outcomes
-
-| Impact Area      | Expected Result                                 |
-|------------------|--------------------------------------------------|
-| Trust & SEO      | More visible and credible product listings       |
-| Conversions      | Improved product page engagement                |
-| Seller Feedback  | Direct loop from real buyers                     |
-| Review Volume    | Spike in both quantity and quality of reviews    |
-| Support Tickets  | Reduced returns and post-sale queries            |
+### 2. 📸 QuickSnap Review
+> **What:** Lets users share a 15-second video or photo instead of typing  
+> **Why:** Mobile-first, time-saving and visually compelling  
+> **How:** Encourages more reviews from time-pressed users
 
 ---
 
-## 📐 Metrics to Track
-
-**North Star Metric**: 📈 **Number of reviews generated**
-
-| Funnel Stage | Metric Example |
-|--------------|----------------|
-| Awareness    | % of users receiving SmartPrompts |
-| Activation   | Click-through rate (CTR) on prompt |
-| Adoption     | # of reviews via WhatsApp or app |
-| Engagement   | Avg. # of reviews per user |
-| Retention    | Repeat reviewers over time |
-| Satisfaction | CSAT on review flow experience |
+### 3. 🏆 Review Rewards Hub
+> **What:** Gamified dashboard to track Flipkart Coins, badges, vouchers  
+> **Why:** Creates long-term motivation through habit and recognition  
+> **How:** Rewards meaningful reviews, builds reviewer loyalty
 
 ---
 
-## ⚠️ Pitfalls and Mitigations
+## 🔄 KPI Tree (Sample)
 
-| Potential Risk | Mitigation Strategy |
-|----------------|----------------------|
-| Low engagement with SmartPrompt | Personalized timing + value-driven messaging |
-| Fake / spam reviews | AI + manual moderation + eligibility rules |
-| WhatsApp resistance | Opt-in choices (App, Email, WhatsApp) |
-| Rewards abuse | Audit system + quality thresholds |
+| Funnel Stage  | Example Metrics |
+|---------------|------------------|
+| Awareness     | % of users receiving SmartPrompts |
+| Activation    | Click-through Rate (CTR) on notifications |
+| Adoption      | # of reviews via WhatsApp/App |
+| Engagement    | Avg. reviews per user, images/videos per review |
+| Retention     | % of users who review more than once |
+| Satisfaction  | CSAT for review submission experience |
 
----
-
-## 🚀 Future Scope
-
-- **Video Reviews at Scale**: Lightweight tools even for low-end devices  
-- **AI-Sorted Reviews**: Surface helpful, authentic content  
-- **Social Sharing**: Boost organic reach through Instagram/WhatsApp Status  
-- **Expansion**: Apply to all categories including fashion, groceries, and essentials  
+**North Star Metric**: 📈 **Total Number of Reviews Generated**
 
 ---
 
-## 🎯 Vision
+## 🧑‍🤝‍🧑 Actor Map
 
-**Flipkart can become India’s most trusted review platform** — where reviews are not just transactional but an engaging, loyalty-building loop that benefits users, sellers, and the platform itself.
+| Actor             | Role in System |
+|-------------------|----------------|
+| End Users         | Submit reviews |
+| Flipkart System   | Sends prompts, verifies content |
+| Sellers           | Use reviews to improve listings |
+| Logistics Team    | Trigger review request upon delivery |
+| Customer Support  | Benefit from fewer tickets if reviews clarify product quality |
 
 ---
 
-## ✨ UI Mockups
+## ⚠️ Pitfalls & Mitigation Strategies
 
-Explore the UI/UX flows on [Figma →](https://www.figma.com/design/igxmApsgGcDdo55LlpXl1L/Flipkart-Mockup?node-id=15-715)
+| Risk | Mitigation |
+|------|------------|
+| Users ignore SmartPrompt | Use emotional + reward-based messages at the right moment |
+| Fake or low-quality reviews | AI moderation + manual checks + eligibility rules |
+| WhatsApp discomfort | Allow opt-in choice for review channel |
+| Rewards abuse | Minimum standards for reward + audit loop |
+
+---
+
+## 🌱 Future Scope
+
+- ✅ Expand review tools to all categories (not just electronics)
+- 📹 Enable video reviews even on low-end devices
+- 🧠 AI-driven review ranking (recent + helpful first)
+- 📲 Social sharing: Encourage review sharing via WhatsApp or Instagram
+
+---
+
+## 🔭 Long-Term Vision
+
+Transform Flipkart into **India’s most trusted review platform** — where reviews aren’t just formality but social proof, habit, and part of a rewarding experience.
+
+---
+
+## 🖼️ UI Mockups
+
+Explore clickable design prototype:  
+[🔗 Figma Link](https://www.figma.com/design/igxmApsgGcDdo55LlpXl1L/Flipkart-Mockup?node-id=15-715)
 
 ---
 
@@ -114,9 +137,5 @@ Explore the UI/UX flows on [Figma →](https://www.figma.com/design/igxmApsgGcDd
 
 **Bhoomi Parikh**  
 MS ITM, University of Texas at Dallas  
-Product Design | Data-Driven Problem Solver | User Research
-
----
-
-> 💡 “We don’t just want reviews. We want meaningful moments of trust — shared, captured, and rewarded.”
+Product Design | Data-Driven Problem Solver | User Research  
 
