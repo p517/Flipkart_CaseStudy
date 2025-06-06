@@ -73,16 +73,9 @@ Despite being India’s leading e-commerce platform, Flipkart faces low user rev
 
 ---
 
-## 🔄 KPI Tree (Sample)
+## 🔄 KPI Tree 
 
-| Funnel Stage  | Example Metrics |
-|---------------|------------------|
-| Awareness     | % of users receiving SmartPrompts |
-| Activation    | Click-through Rate (CTR) on notifications |
-| Adoption      | # of reviews via WhatsApp/App |
-| Engagement    | Avg. reviews per user, images/videos per review |
-| Retention     | % of users who review more than once |
-| Satisfaction  | CSAT for review submission experience |
+![image](https://github.com/user-attachments/assets/067a37f6-d456-44cf-aeba-3a7825cf1774)
 
 **North Star Metric**: 📈 **Total Number of Reviews Generated**
 
